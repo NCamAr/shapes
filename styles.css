@@ -1,0 +1,186 @@
+/* Elements */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.fondo1 {
+	width: 25%;
+	height: 100%;
+	background-color: #bff8f8;
+	position: absolute;
+
+}
+
+.fondo2 {
+	background-color: #fff5db;
+	position: absolute;
+	left: 25%;
+
+}
+
+.fondo3 {
+	background-color: #b5e8ff;
+	position: absolute;
+	left: 50%;
+
+}
+
+
+.piso1{
+	height: 150px;
+	width:25%;
+	position: absolute;
+	bottom: 0em;
+	background-color: white;
+}
+
+.piso2{
+	background-color: #ffebaf;
+	left: 25%;
+}
+
+.piso3{
+	background-color: #41cd27;
+	left: 50%;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: steelblue;
+	transform: rotate(-90deg);
+}
+
+.line-2 {
+	position: absolute;
+	left: -25%;
+}
+
+.line-3{
+	position: absolute;
+	left: 25%;
+}
+
+.circle {
+	height: 12em;
+	width: 12em;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+    left: 6%;
+    bottom: 8em;
+    box-shadow: -10px -10px 25px #dedede inset;
+}
+
+.circle2 {
+	height: 8em;
+	width: 8em;
+	position: absolute;
+    left: 8%;
+    bottom: 18em;
+}
+
+.circle3 {
+	height: 6em;
+	width: 6em;
+	position: absolute;
+    left: 9%;
+    bottom: 25em;
+}
+
+.nose {
+      width: 0;
+	    height: 0;
+	    position: absolute;
+	    border-top: 7px solid #ff000000;
+	    border-left: 70px solid orange;
+	    border-bottom: 7px solid transparent;
+	    left: 13%;
+	    bottom: 27em;
+    }
+
+.eye {
+	height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 11%;
+    bottom: 28.5em;
+    background-color: black;
+
+}
+
+.eye2 {
+	position: absolute;
+    left: 13%;
+    bottom: 28.5em;
+}
+
+.triangle{
+	width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #ffd07a;
+    position: absolute;
+    bottom: 150px;
+    left: 30em;
+
+}
+
+.triangle2{
+	width: 0;
+    height: 0;
+    border-left: 103px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #ffdc9b;
+    position: absolute;
+    bottom: 150px;
+    left: 33em;
+}
+
+.tronco{
+	width: 50px;
+    height: 160px;
+    background-color: #795548;
+    position: absolute;
+    left: 61%;
+    bottom: 150px;
+    box-shadow: -10px -10px 20px #51413b inset;
+}
+
+.hojas{
+    width: 0;
+    height: 0;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 206px solid green;
+    position: absolute;
+    bottom: 268px;
+    left: 53.7%;
+
+}
+
+.hojas2{
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 160px solid green;
+    position: absolute;
+    bottom: 364px;
+    left: 56%;
+}
+
+.hojas3{
+	border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid green;
+    position: absolute;
+    bottom: 450px;
+    left: 58%;
+}
