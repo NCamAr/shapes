@@ -8,6 +8,12 @@ body {
     font-size: 1em;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1700px;
+    position: relative;
 }
 .fondo1 {
 	width: 25%;
@@ -130,7 +136,7 @@ body {
     border-bottom: 300px solid #ffd07a;
     position: absolute;
     bottom: 150px;
-    left: 30em;
+    left: 30%;
 
 }
 
@@ -142,7 +148,7 @@ body {
     border-bottom: 300px solid #ffdc9b;
     position: absolute;
     bottom: 150px;
-    left: 33em;
+    left: calc(30% + 3em);
 }
 
 .tronco{
@@ -163,7 +169,7 @@ body {
     border-bottom: 206px solid green;
     position: absolute;
     bottom: 268px;
-    left: 53.7%;
+    left: 55%;
 
 }
 
@@ -173,7 +179,7 @@ body {
     border-bottom: 160px solid green;
     position: absolute;
     bottom: 364px;
-    left: 56%;
+    left: 56.8%;
 }
 
 .hojas3{
@@ -182,5 +188,5 @@ body {
     border-bottom: 120px solid green;
     position: absolute;
     bottom: 450px;
-    left: 57.8%;
+    left: 58.4%;
 }
